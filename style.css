@@ -272,7 +272,7 @@
  }
 
  #name {
-     width: 100%;
+     width: 80%;
      padding: 0.6rem;
      border-radius: 10px;
      border: none;
@@ -363,9 +363,9 @@
      }
 
      .slide1 {
-         width: 100%;
+         width: 95%;
          z-index: 999;
-         left: 98%;
+         left: 94%;
 
      }
 
