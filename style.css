@@ -357,15 +357,16 @@
          position: absolute;
          display: block;
          line-height: 3rem;
-         margin-left: -22rem;
+         margin-left: -23rem;
          background-color: var(---header-bg);
          height: 20rem;
+         padding-left: 3rem;
      }
 
      .slide1 {
          width: 95%;
          z-index: 999;
-         left: 94%;
+         right: -1%;
 
      }
 
