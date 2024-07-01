@@ -26,14 +26,19 @@
  /* navbar and header styling */
 
  header {
-     height: 0.8rem;
      background-color: var(---header-bg);
-     display: flex;
-     gap: 0.5rem;
+     height: 0.8rem;
 
  }
 
- header .datee {
+ .time {
+     display: flex;
+     gap: 0.5rem;
+     align-items: center;
+
+ }
+
+ time.datee {
      margin-left: 40rem;
      padding-top: -0.5rem;
      font-size: 8px;
@@ -80,9 +85,10 @@
  .nav-list a {
      color: var(---color);
  }
-.nav-list a:hover{
-color: blue;
-}
+
+ .nav-list a:hover {
+     color: blue;
+ }
 
  .nav-list {
      margin-top: 6px;
@@ -311,11 +317,11 @@ color: blue;
  }
 
  footer i {
-    color: var(---color);
+     color: var(---color);
  }
 
  footer i:hover {
-    color: blue;
+     color: blue;
  }
 
  @media screen and (max-width:768px) {
@@ -384,23 +390,27 @@ color: blue;
      #the-story {
          display: grid;
      }
+
      .goals-div {
-        display: grid;
-        margin-left: -1.8rem;
+         display: grid;
+         margin-left: -1.8rem;
      }
+
      .container h5 {
-        font-size: 1rem;
-        
+         font-size: 1rem;
+
      }
+
      #submit {
-        width: 8rem;
+         width: 8rem;
      }
 
      footer {
-        display: grid;
-       margin-left: 6rem;
+         display: grid;
+         margin-left: 6rem;
      }
+
      .footer-ul {
-        display: block;
+         display: block;
      }
  }
