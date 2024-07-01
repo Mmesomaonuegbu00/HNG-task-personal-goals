@@ -1,0 +1,406 @@
+ @import url('https://fonts.googleapis.com/css2?family=Prompt&family=Roboto+Condensed:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     font-family: 'Prompt', sans-serif;
+ }
+
+ :root {
+     ---color: #000000;
+     ---header-bg: #fcf7f7;
+     ---btn-color: #ffffff;
+     ---btn-bg: #000000;
+     ---hero-color: rgb(202, 55, 104);
+     ---second-color: rgb(255, 238, 238);
+     ---goal-color: #fdf7f7;
+     ---goal-icon: rgb(245, 8, 47);
+ }
+
+ /* navbar and header styling */
+
+ header {
+     height: 0.8rem;
+     background-color: var(---header-bg);
+     display: flex;
+     gap: 0.5rem;
+
+ }
+
+ header .datee {
+     margin-left: 40rem;
+     padding-top: -0.5rem;
+     font-size: 8px;
+     font-family: 'Prompt', sans-serif;
+ }
+
+ .utc {
+     padding-top: -0.5rem;
+     font-size: 8px;
+     font-family: 'Prompt', sans-serif;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     padding-left: 1rem;
+
+     border-radius: 10px;
+
+ }
+
+ .icon1 {
+     display: none;
+ }
+
+ .icon2 {
+     display: none;
+ }
+
+ .nav-logo {
+     /* font-family: "Playwrite SK", cursive; */
+     font-family: "Permanent Marker", cursive;
+     font-size: 2rem;
+     font-weight: bolder;
+
+ }
+
+ .nav-ul {
+     padding: 1rem;
+     display: inline-flex;
+     gap: 0.7rem;
+ }
+
+ .nav-list a {
+     color: var(---color);
+ }
+.nav-list a:hover{
+color: blue;
+}
+
+ .nav-list {
+     margin-top: 6px;
+ }
+
+ .nav-button {
+     background-color: var(---btn-bg);
+     padding: 0.3rem;
+     border-radius: 7px;
+     width: 8rem;
+     padding: 0.5rem;
+ }
+
+ .nav-button a {
+     color: var(---btn-color);
+ }
+
+
+ /* hero section  */
+
+ .hero-section {
+     display: inline-flex;
+     gap: 6rem;
+     padding: 3rem;
+
+
+ }
+
+ #hero-text {
+     margin-top: 2rem;
+
+ }
+
+ #hero-text h2 {
+     /* font-family: "Playwrite MX", cursive; */
+     font-family: "Permanent Marker", cursive;
+     font-size: 1.5rem;
+ }
+
+ #hero-text span {
+     font-weight: bolder;
+
+ }
+
+ #hero-text p {
+     font-size: 1.2rem;
+ }
+
+ .hero-button {
+     background-color: var(---hero-color);
+     padding: 0.5rem;
+     border-radius: 7px;
+     width: 10rem;
+     margin-top: 1rem;
+     border: none;
+
+ }
+
+ .hero-button a {
+     color: var(---btn-color);
+ }
+
+ /* section section */
+ .second-section {
+     background-color: var(---second-color);
+     margin-top: -1rem;
+     padding: 2rem;
+ }
+
+ .sect2-heading {
+     text-align: center;
+     font-size: 1.5rem;
+     margin-top: 1rem;
+     font-family: "Playwrite ES Deco", cursive;
+
+
+ }
+
+ span {
+     font-size: 1rem;
+     font-family: "Playwrite ES Deco", cursive;
+ }
+
+
+ #the-story {
+     padding: 2rem;
+     display: flex;
+     gap: 6rem;
+ }
+
+ .story-button {
+     margin-top: 1rem;
+     background-color: var(---btn-bg);
+     padding: 0.5rem;
+     border-radius: 7px;
+     width: 10rem;
+     margin-top: 1rem;
+     border: none;
+
+ }
+
+ .story-button a {
+     color: var(---btn-color);
+ }
+
+ /* third section */
+ #third-section {
+     background-color: #ffffff;
+     padding: 3rem;
+     align-items: center;
+     text-align: center;
+ }
+
+ .goals {
+     font-family: "Permanent Marker", cursive;
+     text-align: center;
+     font-size: 1.2rem;
+ }
+
+ .goals-div {
+     display: flex;
+     margin-left: rem;
+     padding: 4rem;
+     gap: 3rem;
+
+ }
+
+ .goal1 {
+     background-color: var(---goal-color);
+     padding: 1.3rem;
+     margin: 0.3rem;
+     border-radius: 8px;
+     width: 100%;
+ }
+
+ .goal1 i {
+     color: var(---goal-icon);
+ }
+
+ .goal2 {
+     background-color: var(---goal-color);
+     padding: 1.3rem;
+     margin: 0.3rem;
+     border-radius: 8px;
+     width: 100%;
+ }
+
+ .goal2 i {
+     color: var(---goal-icon);
+ }
+
+ .goal3 {
+     background-color: var(---goal-color);
+     padding: 1.3rem;
+     margin: 0.3rem;
+     border-radius: 8px;
+     width: 100%;
+ }
+
+ .goal3 i {
+     color: var(---goal-icon);
+ }
+
+ /* fourth section */
+ .container {
+     background-color: var(---hero-color);
+     color: #ffffff;
+     height: 20rem;
+     margin: 5rem;
+     border-radius: 2rem;
+     margin-top: -2rem;
+     padding: 3rem;
+     text-align: center;
+ }
+
+ .container h5 {
+     font-size: 2rem;
+     text-align: center;
+     font-weight: lighter;
+
+ }
+
+ #name {
+     width: 100%;
+     padding: 0.6rem;
+     border-radius: 10px;
+     border: none;
+     background-color: rgb(255, 224, 230);
+ }
+
+ .input-group {
+     margin-top: 1rem;
+ }
+
+ #submit {
+     width: 12rem;
+     padding: 1rem;
+     margin-top: 2rem;
+     border-radius: 8px;
+     border: none;
+     background-color: var(---btn-bg);
+     color: #ffffff;
+ }
+
+ /* footer */
+ footer {
+     display: flex;
+     justify-content: space-between;
+     padding: 1rem;
+     padding-left: 3rem;
+     padding-right: 3rem;
+ }
+
+ .footer-ul {
+     display: flex;
+     gap: 2rem;
+ }
+
+ .footer-ul a {
+     color: var(---color);
+
+ }
+
+ .footer-ul a:hover {
+     color: blue;
+ }
+
+ footer i {
+    color: var(---color);
+ }
+
+ footer i:hover {
+    color: blue;
+ }
+
+ @media screen and (max-width:768px) {
+
+     header .datee {
+         margin-left: 10rem;
+     }
+
+     .utc {
+         margin-left: rem;
+     }
+
+     .icon1 {
+         display: block;
+         margin-left: -26rem;
+         font-size: 2rem;
+         font-weight: bolder;
+
+     }
+
+     .icon2 {
+         display: block;
+         margin-left: 18rem;
+     }
+
+     .nav-logo {
+         font-size: 16px;
+         padding: 0.4rem;
+
+     }
+
+     .nav-ul {
+         position: absolute;
+         display: block;
+         line-height: 3rem;
+         margin-left: -22rem;
+         background-color: var(---header-bg);
+         height: 20rem;
+     }
+
+     .slide1 {
+         width: 100%;
+         z-index: 999;
+         left: 98%;
+
+     }
+
+     .hero-section {
+         display: grid;
+     }
+
+     #hero-text {
+         font-size: 1rem;
+         margin-top: -3rem;
+     }
+
+     .slack-profile-img {
+         max-width: fit-content;
+     }
+
+     /* .slack-profile-img img {
+         width: 100%;
+
+     }  */
+
+     #the-story {
+         display: grid;
+     }
+     .goals-div {
+        display: grid;
+        margin-left: -1.8rem;
+     }
+     .container h5 {
+        font-size: 1rem;
+        
+     }
+     #submit {
+        width: 8rem;
+     }
+
+     footer {
+        display: grid;
+       margin-left: 6rem;
+     }
+     .footer-ul {
+        display: block;
+     }
+ }
